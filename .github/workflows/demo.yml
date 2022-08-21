@@ -1,7 +1,7 @@
 name: Demo
 on: [push]
 jobs:
-	Demo:
-		runs-on: ubuntu-latest
-		steps:
-			- run: echo "Job triggered by ${{ github.actor }}!"
+  Demo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Job triggered by ${{ github.actor }}!"
